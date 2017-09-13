@@ -18,6 +18,9 @@ public class MainMenu extends Application {
     private static final float SCENE_WIDTH = 600;
     private static final float SCENE_HEIGHT = 600;
 
+    Scene mainMenuScene;
+    Scene recordingScene;
+
     @FXML
     private Button difficultyOneButton;
 
@@ -27,44 +30,43 @@ public class MainMenu extends Application {
 
 
     @Override
-    public void start(Stage stage) throws IOException{
+    public void start(Stage stage) throws IOException {
         _stage = stage;
 
-        Parent root = FXMLLoader.load(getClass().getResource("mainMenu.fxml"));
+        createScenes();
 
         _stage.setTitle("Tātai - Learn Māori Numbers");
-        _stage.setScene(new Scene(root, SCENE_WIDTH, SCENE_HEIGHT));
+        _stage.setScene(mainMenuScene);
         _stage.setResizable(false);
         _stage.show();
     }
 
+    public void createScenes() throws IOException {
 
+        FXMLLoader mainLoader = new FXMLLoader(getClass().getResource("mainMenu.fxml"));
+        Parent mainRoot = mainLoader.load();
+        mainMenuScene = new Scene(mainRoot, SCENE_WIDTH, SCENE_HEIGHT);
 
-    public void switchScene(String fxmlURL){
-        FXMLLoader loader = new FXMLLoader((getClass().getResource(fxmlURL)));
-        Parent root;
+        FXMLLoader recordingLoader = new FXMLLoader(getClass().getResource("../testMenu/recordingMenu.fxml"));
+        Parent recordingRoot = recordingLoader.load();
+        recordingScene = new Scene(recordingRoot, SCENE_WIDTH, SCENE_HEIGHT);
 
-        try{
-            root = (Parent)loader.load();
-            _stage.setScene(new Scene(root, SCENE_WIDTH, SCENE_HEIGHT));
-
-
-        }catch (IOException e){
-            e.printStackTrace();
-        }
 
     }
 
 
 
     @FXML
-    private void handleButtonAction(ActionEvent event){
+    private void handleButtonAction(ActionEvent event) throws IOException {
+
         if (event.getTarget() == difficultyOneButton){
-            switchScene("../testMenu/recordingMenu.fxml");      //Somehow set the scene to recording scene
+
+            _stage.setScene(recordingScene);
+
+//          "../testMenu/maoriNumberMenu.fxml");      //Somehow set the scene to recording scene
 
             //set random number generator to 1-9
 
-            System.out.println("Button 1 Pressed");
         }
 
         else if (event.getTarget() == difficultyTwoButton){
@@ -73,8 +75,6 @@ public class MainMenu extends Application {
             //set random number generator to 1-99
             System.out.println("Button 2 Pressed");
         }
-
-
     }
 
 
@@ -89,9 +89,6 @@ public class MainMenu extends Application {
         }
 
     }
-
-
-
 
     public static void main(String[] args) {
         launch(args);
