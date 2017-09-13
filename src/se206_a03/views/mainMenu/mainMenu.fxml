@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane style="-fx-background-color: #ffdeaa;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="se206_a03.views.mainMenu.MainMenu">
+   <children>
+      <MenuBar prefHeight="24.0" prefWidth="600.0" style="-fx-background-color: #f2d09b;">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#quit" text="Quit" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <AnchorPane fx:id="MainMenu" layoutY="28.0" prefHeight="572.0" prefWidth="601.0">
+         <children>
+            <Label alignment="CENTER" layoutX="-4.0" layoutY="30.0" prefWidth="600.0" text="Tātai!" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0">
+               <padding>
+                  <Insets bottom="10.0" left="8.0" right="8.0" top="10.0" />
+               </padding>
+               <font>
+                  <Font name="DejaVu Sans ExtraLight" size="43.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="1.0" layoutY="91.0" prefHeight="143.0" prefWidth="600.0" text="Learn and practise your Māori numbers between 1~99. You will be tested on your ability to correctly pronounce Maori numbers from 1 to 99. You will be given two chances to correctly pronounce the numbers, and tested out of 10.&#10;&#10;There will be two levels. An easy level from numbers 1 to 9, and a harder level from 1 to 99. Please select one of the levels below:" textAlignment="CENTER" wrapText="true" AnchorPane.topAnchor="90.0">
+               <padding>
+                  <Insets bottom="10.0" left="30.0" right="30.0" top="10.0" />
+               </padding>
+            </Label>
+            <Button fx:id="difficultyOneButton" layoutX="121.0" layoutY="298.0" maxHeight="120.0" maxWidth="140.0" minHeight="120.0" minWidth="140.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="120.0" prefWidth="140.0" text="Easy&#10;1~9" textAlignment="CENTER" wrapText="true" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="300.0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+               <font>
+                    <Font name="DejaVu Sans Condensed Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="difficultyTwoButton" layoutX="394.0" layoutY="267.0" maxHeight="120.0" maxWidth="140.0" minHeight="120.0" minWidth="140.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="120.0" prefWidth="140.0" text="Hard&#10;1~99" textAlignment="CENTER" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="300.0">
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+               <font>
+                    <Font name="DejaVu Sans Condensed Bold" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
