@@ -19,12 +19,14 @@ public class MainMenu extends Application {
     private static final String MAIN_FXML = "mainMenu.fxml";
     private static final String RECORDING_FXML = "../testMenu/recordingMenu.fxml";
     private static final String CORRECT_FXML = "../testMenu/correct.fxml";
+    private static final String INCORRECT_FXML = "../testMenu/incorrect.fxml";
 
     private static Stage window;
 
     private static Scene mainMenuScene;
     private static Scene recordingScene;
     private static Scene correctScene;
+    private static Scene incorrectScene;
 
 
     public static MainMenu getInstance() {
@@ -35,6 +37,10 @@ public class MainMenu extends Application {
                 mainMenuScene = instance.createScenes(MAIN_FXML);
                 recordingScene = instance.createScenes(RECORDING_FXML);
                 correctScene = instance.createScenes(CORRECT_FXML);
+                incorrectScene = instance.createScenes(INCORRECT_FXML);
+
+
+
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -85,6 +91,10 @@ public class MainMenu extends Application {
                 break;
             case CORRECT_SCENE_ENUM:
                 window.setScene(correctScene);
+                break;
+            case INCORRECT_SCENE_ENUM:
+                window.setScene(incorrectScene);
+                break;
             default:
                 break;
         }

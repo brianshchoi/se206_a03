@@ -37,13 +37,6 @@ public class RecordingMenuController {
 
     }
 
-    @FXML
-    private void difficultyTwoButtonAction(ActionEvent event){
-
-        //Change scene into difficulty two
-
-    }
-
     public void setText(int randomNumber){
         String numToString = Integer.toString(randomNumber);
 
