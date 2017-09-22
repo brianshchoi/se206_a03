@@ -5,9 +5,9 @@
 }
 
 .button: hover {
-    -fx-background-color:rgba(235, 184, 102, 1);
+    -fx-background-color:rgba(235, 184, 102, 0.2);
 }
 
 .button: pressed {
-    -fx-background-color:#a76f16;
+    -fx-background-color:rgba(255, 184, 102, 0.8);
 }

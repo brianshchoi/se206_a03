@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Re-made MainMenuController to handle events, correctly switches between scenes now.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/se206_a03/views/testMenu/incorrect.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/se206_a03/se206_a03/views/mainMenu/mainMenu.fxml" afterPath="$PROJECT_DIR$/out/production/se206_a03/se206_a03/views/mainMenu/mainMenu.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se206_a03/commons/RecordingMenu.java" afterPath="$PROJECT_DIR$/src/se206_a03/commons/RecordingMenu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se206_a03/views/mainMenu/MainMenu.java" afterPath="$PROJECT_DIR$/src/se206_a03/views/mainMenu/MainMenu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se206_a03/views/mainMenu/Main.css" afterPath="$PROJECT_DIR$/src/se206_a03/views/mainMenu/Main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se206_a03/views/mainMenu/mainMenu.fxml" afterPath="$PROJECT_DIR$/src/se206_a03/views/mainMenu/mainMenu.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se206_a03/views/testMenu/RecordingMenuController.java" afterPath="$PROJECT_DIR$/src/se206_a03/views/testMenu/RecordingMenuController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se206_a03/views/testMenu/correct.fxml" afterPath="$PROJECT_DIR$/src/se206_a03/views/testMenu/correct.fxml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,8 +65,8 @@
       <file leaf-file-name="MainMenu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se206_a03/views/mainMenu/MainMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="527">
+              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="incorrect.fxml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="incorrect.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se206_a03/views/testMenu/incorrect.fxml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+              <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -97,13 +91,13 @@
         <entry file="file://$PROJECT_DIR$/src/se206_a03/commons/RecordingMenu.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainMenuController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainMenuController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/se206_a03/views/mainMenu/MainMenuController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
@@ -118,8 +112,8 @@
       <file leaf-file-name="Main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se206_a03/views/mainMenu/Main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="187">
+              <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -151,7 +145,7 @@
         <entry file="file://$PROJECT_DIR$/src/se206_a03/views/testMenu/correctController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -216,11 +210,12 @@
         <option value="$PROJECT_DIR$/src/se206_a03/views/testMenu/RecordingMenu.java" />
         <option value="$PROJECT_DIR$/src/se206_a03/views/mainMenu/MainMenuController.java" />
         <option value="$PROJECT_DIR$/src/se206_a03/views/testMenu/Main.css" />
-        <option value="$PROJECT_DIR$/src/se206_a03/views/mainMenu/Main.css" />
         <option value="$PROJECT_DIR$/src/se206_a03/views/mainMenu/mainMenu.fxml" />
         <option value="$PROJECT_DIR$/src/se206_a03/commons/RecordingMenu.java" />
         <option value="$PROJECT_DIR$/src/se206_a03/views/testMenu/RecordingMenuController.java" />
         <option value="$PROJECT_DIR$/src/se206_a03/views/mainMenu/MainMenu.java" />
+        <option value="$PROJECT_DIR$/src/se206_a03/views/testMenu/incorrect.fxml" />
+        <option value="$PROJECT_DIR$/src/se206_a03/views/mainMenu/Main.css" />
       </list>
     </option>
   </component>
@@ -944,29 +939,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/se206_a03/views/mainMenu/Main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/se206_a03/commons/RandomNumberGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se206_a03/views/mainMenu/MainMenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="58" column="45" lean-forward="false" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -984,7 +961,7 @@
     <entry file="file://$PROJECT_DIR$/src/se206_a03/views/testMenu/correctController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1001,18 +978,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/se206_a03/commons/RecordingMenu.java">
+    <entry file="file://$PROJECT_DIR$/src/se206_a03/views/mainMenu/Main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/se206_a03/views/mainMenu/MainMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="527">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1022,12 +999,30 @@
     <entry file="file://$PROJECT_DIR$/src/se206_a03/views/testMenu/incorrect.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se206_a03/commons/RecordingMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se206_a03/views/mainMenu/MainMenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="58" column="45" lean-forward="false" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

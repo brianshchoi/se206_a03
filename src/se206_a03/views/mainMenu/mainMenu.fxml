@@ -24,12 +24,12 @@
                   <Font name="KacstOne Bold" size="59.0" />
                </font>  
             </Label>
-            <Label alignment="TOP_CENTER" layoutX="-2.0" layoutY="87.0" prefHeight="240.0" prefWidth="600.0" text="Learn and practise your Māori numbers between 1~9 and 1~99. &#10;You will be tested on your ability to correctly pronounce Māori numbers. &#10;You will be given two chances to correctly pronounce the numbers, and tested out of 10.&#10;&#10;There will be two levels. An easy level from numbers 1 to 9, and a harder level from 1 to 99. If you score over 8 on the easy level, there will be an option to continue to the harder level. &#10;&#10;&#10;Please select one of the levels below:&#10;" textAlignment="CENTER" wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="110.0">
+            <Label alignment="TOP_CENTER" layoutX="-2.0" layoutY="87.0" prefHeight="240.0" prefWidth="600.0" text="Learn and practise your Māori numbers between 1~9 and 1~99. &#10;You will be tested on your ability to correctly pronounce Māori numbers. &#10;You will be given two chances to correctly pronounce the numbers, and tested out of 10.&#10;&#10;&#10;There will be two levels. An easy level from numbers 1 to 9, and a harder level from 1 to 99. If you score over 8 on the easy level, there will be an option to continue to the harder level. &#10;&#10;&#10;Please select one of the levels below:&#10;" textAlignment="CENTER" wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="110.0">
                <padding>
-                  <Insets left="30.0" right="30.0" top="10.0" />
+                  <Insets left="30.0" right="30.0" />
                </padding>
                <font>
-                  <Font size="13.5" />
+                  <Font size="14.0" />
                </font>
             </Label>
          </children>
