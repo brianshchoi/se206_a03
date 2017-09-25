@@ -9,7 +9,10 @@ import java.io.IOException;
 
 public class MainMenuController{
 
+    //Don't delete this////////////////////////
     MainMenu mainMenu = MainMenu.getInstance();
+    ///////////////////////////////////////////
+
 
     @FXML
     private Button difficultyOneButton;
@@ -19,7 +22,7 @@ public class MainMenuController{
 
     @FXML
     public void initialize(){
-        System.out.println("TEST MAINMENU");
+
     }
 
     @FXML
@@ -36,11 +39,6 @@ public class MainMenuController{
             Score hardScore = new Score(hardLimit);
             hardScore.start();
         }
-
-
-        //Start score counting out of 10
-
-
     }
 
 

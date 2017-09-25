@@ -8,7 +8,9 @@ import se206_a03.views.testMenu.RecordingMenuController;
 import java.io.IOException;
 
 public class Score {
+    //Don't delete this////////////////////////
     MainMenu mainMenu = MainMenu.getInstance();
+    ///////////////////////////////////////////
 
     private int _maxRandomNumber;
     private int _questionNumber;
@@ -16,6 +18,7 @@ public class Score {
     private int NUM_QUESTIONS = 10;
     private boolean secondAttempt;
 
+    //Store an array of 10 containing the random numbers
 
 
 
@@ -45,9 +48,7 @@ public class Score {
 //                e.printStackTrace();
 //            }
 //        }
-
         mainMenu.setWindow(MainMenu.ScenesEnum.RECORDING_SCENE_ENUM);
-
 
 
 
@@ -56,8 +57,6 @@ public class Score {
     public void incrementScore(){
         // if recording is true, && (_score < NUM_QUESTIONS)
         // _score++;
-
-
         //
     }
 

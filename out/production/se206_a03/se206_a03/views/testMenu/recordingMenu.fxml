@@ -15,6 +15,16 @@
 
 <AnchorPane maxHeight="600.0" maxWidth="600.0" minHeight="600.0" minWidth="600.0" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #ffdeaa;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="se206_a03.views.testMenu.RecordingMenuController">
    <children>
+       <AnchorPane fx:id="MainMenu" layoutX="2.0" layoutY="-1.0" prefHeight="550.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+           <children>
+               <ImageView fitHeight="550.0" fitWidth="600.0" pickOnBounds="true" style="-fx-opacity: 0.1;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                   <image>
+                       <Image url="@../../resources/background.png" />
+                   </image>
+               </ImageView>
+
+           </children>
+       </AnchorPane>
       <Label fx:id="questionNumberLabel" alignment="TOP_CENTER" layoutX="2.0" layoutY="39.0" prefHeight="37.0" prefWidth="600.0" text="Question 1" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
          <font>
             <Font name="DejaVu Sans ExtraLight" size="34.0" />

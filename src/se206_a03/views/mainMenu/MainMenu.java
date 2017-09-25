@@ -14,7 +14,7 @@ public class MainMenu extends Application {
     private static MainMenu instance = null;
 
     private static final float SCENE_WIDTH = 600;
-    private static final float SCENE_HEIGHT = 600;
+    private static final float SCENE_HEIGHT = 550;
 
     private static final String MAIN_FXML = "mainMenu.fxml";
     private static final String RECORDING_FXML = "../testMenu/recordingMenu.fxml";
@@ -27,8 +27,6 @@ public class MainMenu extends Application {
     private static Scene recordingScene;
     private static Scene correctScene;
     private static Scene incorrectScene;
-
-
 
     public static MainMenu getInstance() {
         if (instance == null){
@@ -47,8 +45,6 @@ public class MainMenu extends Application {
 
         return instance;
     }
-
-
 
     @Override
     public void start(Stage stage) throws IOException {
@@ -79,15 +75,12 @@ public class MainMenu extends Application {
         return scene;
     }
 
-
-
     public enum ScenesEnum {
         MAIN_SCENE_ENUM,
         RECORDING_SCENE_ENUM,
         CORRECT_SCENE_ENUM,
         INCORRECT_SCENE_ENUM;
     }
-
 
     public void setWindow(ScenesEnum scenes) throws IOException {
         switch(scenes){
@@ -122,7 +115,6 @@ public class MainMenu extends Application {
                 return null;
         }
     }
-
 
     public static void main(String[] args) {
         launch(args);

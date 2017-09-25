@@ -2,24 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Re-made MainMenuController to handle events, correctly switches between scenes now.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/se206_a03/commons/Score.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/se206_a03/se206_a03/commons/RecordingMenu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/se206_a03/se206_a03/views/mainMenu/Main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/se206_a03/commons/RecordingMenu.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/se206_a03/views/mainMenu/Main.css" afterPath="$PROJECT_DIR$/src/se206_a03/resources/Main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/se206_a03/se206_a03/views/mainMenu/MainMenu$1.class" afterPath="$PROJECT_DIR$/out/production/se206_a03/se206_a03/views/mainMenu/MainMenu$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/se206_a03/se206_a03/views/mainMenu/MainMenu$ScenesEnum.class" afterPath="$PROJECT_DIR$/out/production/se206_a03/se206_a03/views/mainMenu/MainMenu$ScenesEnum.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/se206_a03/se206_a03/commons/Score.class" afterPath="$PROJECT_DIR$/out/production/se206_a03/se206_a03/commons/Score.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/se206_a03/se206_a03/views/mainMenu/MainMenu.class" afterPath="$PROJECT_DIR$/out/production/se206_a03/se206_a03/views/mainMenu/MainMenu.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/se206_a03/se206_a03/views/mainMenu/MainMenuController.class" afterPath="$PROJECT_DIR$/out/production/se206_a03/se206_a03/views/mainMenu/MainMenuController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/se206_a03/se206_a03/views/testMenu/RecordingMenuController.class" afterPath="$PROJECT_DIR$/out/production/se206_a03/se206_a03/views/testMenu/RecordingMenuController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/se206_a03/se206_a03/views/testMenu/correctController.class" afterPath="$PROJECT_DIR$/out/production/se206_a03/se206_a03/views/testMenu/correctController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/se206_a03/se206_a03/resources/Main.css" afterPath="$PROJECT_DIR$/out/production/se206_a03/se206_a03/resources/Main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/se206_a03/se206_a03/views/mainMenu/mainMenu.fxml" afterPath="$PROJECT_DIR$/out/production/se206_a03/se206_a03/views/mainMenu/mainMenu.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/se206_a03/se206_a03/views/testMenu/recordingMenu.fxml" afterPath="$PROJECT_DIR$/out/production/se206_a03/se206_a03/views/testMenu/recordingMenu.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se206_a03/commons/Score.java" afterPath="$PROJECT_DIR$/src/se206_a03/commons/Score.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se206_a03/resources/Main.css" afterPath="$PROJECT_DIR$/src/se206_a03/resources/Main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se206_a03/views/mainMenu/MainMenu.java" afterPath="$PROJECT_DIR$/src/se206_a03/views/mainMenu/MainMenu.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se206_a03/views/mainMenu/MainMenuController.java" afterPath="$PROJECT_DIR$/src/se206_a03/views/mainMenu/MainMenuController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se206_a03/views/mainMenu/mainMenu.fxml" afterPath="$PROJECT_DIR$/src/se206_a03/views/mainMenu/mainMenu.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se206_a03/views/testMenu/RecordingMenuController.java" afterPath="$PROJECT_DIR$/src/se206_a03/views/testMenu/RecordingMenuController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se206_a03/views/testMenu/correctController.java" afterPath="$PROJECT_DIR$/src/se206_a03/views/testMenu/correctController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se206_a03/views/testMenu/incorrect.fxml" afterPath="$PROJECT_DIR$/src/se206_a03/views/testMenu/incorrect.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se206_a03/views/testMenu/recordingMenu.fxml" afterPath="$PROJECT_DIR$/src/se206_a03/views/testMenu/recordingMenu.fxml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -81,8 +77,8 @@
       <file leaf-file-name="MainMenu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se206_a03/views/mainMenu/MainMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="77" column="72" lean-forward="false" selection-start-line="77" selection-start-column="72" selection-end-line="77" selection-end-column="72" />
+            <state relative-caret-position="493">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,12 +89,10 @@
       <file leaf-file-name="MainMenuController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se206_a03/views/mainMenu/MainMenuController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="374">
+              <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#465#466#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,8 +101,8 @@
       <file leaf-file-name="Score.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/se206_a03/commons/Score.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="562">
+              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,22 +113,26 @@
       <file leaf-file-name="RecordingMenuController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se206_a03/views/testMenu/RecordingMenuController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="256">
+              <caret line="51" column="24" lean-forward="false" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#548#549#0" expanded="true" />
-                <element signature="e#601#602#0" expanded="true" />
+                <element signature="e#577#578#0" expanded="true" />
+                <element signature="e#628#629#0" expanded="true" />
+                <element signature="e#868#1286#0" expanded="true" />
+                <element signature="e#983#1261#0" expanded="true" />
+                <element signature="e#1260#1261#0" expanded="true" />
+                <element signature="e#1285#1286#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recordingMenu.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/se206_a03/views/testMenu/recordingMenu.fxml">
+      <file leaf-file-name="mainMenu.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se206_a03/views/mainMenu/mainMenu.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -146,7 +144,7 @@
       <file leaf-file-name="correctController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se206_a03/views/testMenu/correctController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="119">
               <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -204,21 +202,22 @@
         <option value="$PROJECT_DIR$/src/se206_a03/views/main_menu/MainMenuController.java" />
         <option value="$PROJECT_DIR$/src/se206_a03/views/mainMenu/button.css" />
         <option value="$PROJECT_DIR$/src/se206_a03/views/mainMenu/Main.java" />
-        <option value="$PROJECT_DIR$/src/se206_a03/views/testMenu/recordingMenu.fxml" />
         <option value="$PROJECT_DIR$/src/se206_a03/views/testMenu/maoriNumberMenu.fxml" />
         <option value="$PROJECT_DIR$/src/se206_a03/views/testMenu/correct.fxml" />
         <option value="$PROJECT_DIR$/src/se206_a03/commons/RandomNumberGenerator.java" />
         <option value="$PROJECT_DIR$/src/se206_a03/views/testMenu/RecordingMenu.java" />
         <option value="$PROJECT_DIR$/src/se206_a03/views/testMenu/Main.css" />
         <option value="$PROJECT_DIR$/src/se206_a03/views/mainMenu/Main.css" />
-        <option value="$PROJECT_DIR$/src/se206_a03/views/mainMenu/mainMenu.fxml" />
         <option value="$PROJECT_DIR$/src/se206_a03/views/testMenu/incorrect.fxml" />
         <option value="$PROJECT_DIR$/src/se206_a03/views/testMenu/correctController.java" />
         <option value="$PROJECT_DIR$/src/se206_a03/commons/RecordingMenu.java" />
+        <option value="$PROJECT_DIR$/src/se206_a03/resources/Main.css" />
+        <option value="$PROJECT_DIR$/src/se206_a03/views/mainMenu/mainMenu.fxml" />
+        <option value="$PROJECT_DIR$/src/se206_a03/views/testMenu/recordingMenu.fxml" />
+        <option value="$PROJECT_DIR$/src/se206_a03/views/mainMenu/MainMenu.java" />
+        <option value="$PROJECT_DIR$/src/se206_a03/views/testMenu/RecordingMenuController.java" />
         <option value="$PROJECT_DIR$/src/se206_a03/views/mainMenu/MainMenuController.java" />
         <option value="$PROJECT_DIR$/src/se206_a03/commons/Score.java" />
-        <option value="$PROJECT_DIR$/src/se206_a03/views/testMenu/RecordingMenuController.java" />
-        <option value="$PROJECT_DIR$/src/se206_a03/views/mainMenu/MainMenu.java" />
       </list>
     </option>
   </component>
@@ -307,10 +306,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -670,14 +669,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/se206_a03/views/testMenu/MaoriNumberMenu.java" />
     <entry file="file://$PROJECT_DIR$/src/se206_a03/views/testMenu/recordingMenu.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="51" />
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/se206_a03.iml">
@@ -688,14 +687,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/se206_a03/views/mainMenu/mainMenu.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="56" column="40" lean-forward="false" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/se206_a03/views/mainMenu/MainMenu.java">
@@ -711,37 +710,37 @@
     <entry file="file://$PROJECT_DIR$/src/se206_a03/commons/RecordingMenu.java" />
     <entry file="file://$PROJECT_DIR$/src/se206_a03/views/mainMenu/MainMenuController.java" />
     <entry file="file://$PROJECT_DIR$/src/se206_a03/views/testMenu/correct.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="67" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="67" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/se206_a03/views/testMenu/MaoriNumberMenu.java" />
     <entry file="file://$PROJECT_DIR$/src/se206_a03/views/mainMenu/mainMenu.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="56" column="40" lean-forward="true" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se206_a03/views/testMenu/recordingMenu.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se206_a03/views/testMenu/recordingMenu.fxml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="51" />
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/se206_a03.iml">
@@ -762,26 +761,26 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/se206_a03/views/testMenu/recordingMenu.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="51" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/se206_a03/views/mainMenu/MainMenuController.java" />
     <entry file="file://$PROJECT_DIR$/src/se206_a03/views/mainMenu/mainMenu.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="141" lean-forward="false" selection-start-line="18" selection-start-column="141" selection-end-line="18" selection-end-column="141" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/se206_a03/views/mainMenu/MainMenu.java">
@@ -797,14 +796,14 @@
     <entry file="file://$PROJECT_DIR$/src/se206_a03/views/mainMenu/MainMenuController.java" />
     <entry file="file://$PROJECT_DIR$/src/se206_a03/commons/CorrectScore.java" />
     <entry file="file://$PROJECT_DIR$/src/se206_a03/views/mainMenu/mainMenu.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="1003">
           <caret line="59" column="14" lean-forward="false" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/se206_a03/views/mainMenu/MainMenu.java">
@@ -818,14 +817,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/se206_a03/views/mainMenu/mainMenu.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/se206_a03/views/mainMenu/MainMenuController.java" />
@@ -888,35 +887,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/se206_a03/views/mainMenu/mainMenu.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="19" column="76" lean-forward="false" selection-start-line="19" selection-start-column="76" selection-end-line="19" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
+    <entry file="file://$PROJECT_DIR$/src/se206_a03/views/testMenu/correct.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se206_a03/views/testMenu/correct.fxml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="87" lean-forward="false" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="87" />
           <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se206_a03/views/testMenu/correctController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -930,31 +908,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/se206_a03/views/testMenu/incorrect.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se206_a03/views/testMenu/recordingMenu.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se206_a03/resources/Main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -963,7 +923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
           <caret line="1773" column="0" lean-forward="false" selection-start-line="1773" selection-start-column="0" selection-end-line="1773" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -971,38 +930,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se206_a03/views/testMenu/recordingMenu.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se206_a03/resources/Main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se206_a03/views/mainMenu/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se206_a03/views/mainMenu/mainMenu.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se206_a03/views/testMenu/correctController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/se206_a03/views/testMenu/RecordingMenuController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="256">
+          <caret line="51" column="24" lean-forward="false" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#868#1286#0" expanded="true" />
+            <element signature="e#983#1261#0" expanded="true" />
+            <element signature="e#1260#1261#0" expanded="true" />
+            <element signature="e#1285#1286#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/se206_a03/views/mainMenu/MainMenuController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se206_a03/views/mainMenu/MainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="77" column="72" lean-forward="false" selection-start-line="77" selection-start-column="72" selection-end-line="77" selection-end-column="72" />
+        <state relative-caret-position="374">
+          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1011,8 +1010,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/se206_a03/commons/Score.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="562">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

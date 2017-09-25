@@ -8,6 +8,8 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import se206_a03.views.mainMenu.MainMenu;
 
+import java.io.IOException;
+
 
 public class RecordingMenuController {
     MainMenu mainMenu = MainMenu.getInstance();
@@ -23,7 +25,7 @@ public class RecordingMenuController {
 
     @FXML
     public void initialize(){
-        System.out.println("Test Initialize");
+         setText((int)(Math.random()*99)+1);
     }
 
 
@@ -32,8 +34,6 @@ public class RecordingMenuController {
         //Record
         //Insert HTK Toolkit here
         //
-
-
 
         //This section makes the microphone button unpressable for 3 seconds
         Service<Void> service = new Service<Void>() {
@@ -50,8 +50,6 @@ public class RecordingMenuController {
         };
         microphoneButton.disableProperty().bind(service.runningProperty());
         service.start();
-
-
     }
 
 
@@ -60,7 +58,7 @@ public class RecordingMenuController {
     // Just need to make it so that the method can be called from MainMenuController
     public void setText(int randomNumber){
         String numToString = Integer.toString(randomNumber);
-        String questionNumber = "2";
+        String questionNumber = "35";
 
         questionNumberLabel.setText("Question "+ questionNumber );
         recordingNumberLabel.setText("Please Record\n\n" + numToString);
