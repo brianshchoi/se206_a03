@@ -5,7 +5,6 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import se206_a03.views.mainMenu.MainMenu;
 
-import java.io.IOException;
 
 
 public class correctController {

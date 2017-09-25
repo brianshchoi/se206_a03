@@ -15,6 +15,11 @@
 
 <AnchorPane maxHeight="600.0" maxWidth="600.0" minHeight="600.0" minWidth="600.0" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #ffdeaa;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="se206_a03.views.testMenu.RecordingMenuController">
    <children>
+      <Label fx:id="questionNumberLabel" alignment="TOP_CENTER" layoutX="2.0" layoutY="39.0" prefHeight="37.0" prefWidth="600.0" text="Question 1" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="DejaVu Sans ExtraLight" size="34.0" />
+         </font>
+      </Label>
          <Button fx:id="microphoneButton" layoutX="230.0" layoutY="257.0" mnemonicParsing="false" onAction="#microphoneAction" prefHeight="24.0" prefWidth="24.0" AnchorPane.leftAnchor="240.0" AnchorPane.rightAnchor="240.0" AnchorPane.topAnchor="240.0">
              <graphic>
                  <ImageView fitHeight="88.0" fitWidth="110.0" opacity="0.54" pickOnBounds="true" preserveRatio="true">
@@ -28,7 +33,7 @@
              </graphic>
          </Button>
        <AnchorPane />
-      <Label fx:id="recordingNumberLabel" alignment="CENTER" layoutX="2.0" layoutY="-2.0" prefHeight="244.0" prefWidth="600.0" text="Please Record &#10;&#10;99" textAlignment="CENTER" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="-2.0" AnchorPane.topAnchor="-2.0">
+      <Label fx:id="recordingNumberLabel" alignment="TOP_CENTER" layoutX="2.0" layoutY="112.0" prefHeight="130.0" prefWidth="600.0" text="Please Record&#10;&#10;99" textAlignment="CENTER" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="110.0">
          <font>
             <Font name="DejaVu Sans ExtraLight" size="30.0" />
          </font>
